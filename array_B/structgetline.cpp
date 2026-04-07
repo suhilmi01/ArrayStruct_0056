@@ -1,9 +1,17 @@
-struct DetailAlamat {
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct alamatDetail
+{
     string desa;
     string kota;
+
 };
-struct orang{
+
+struct mahasiswa 
+{
     string nama;
-    DetailAlamat alamat;
+    alamatDetail alamat;
     int umur;
 };
